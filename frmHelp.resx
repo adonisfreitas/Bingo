@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TextBox1.Text" xml:space="preserve">
+    <value>
+BINGO
+
+Apresentação
+
+Programa foi desenvolvido para sorteio de bingos beneficentes sem fins lucrativos e pode ser distribuído gratuitamente.
+
+Feito no Microsoft VS 2008 em VB no ambiente do Windows 10 e não usa nenhum recurso adicional para evitar possíveis incompatibilidades e/ou conflitos.
+Foi configurado para exibição na resolução mínima de 800 x 600 e pode ser operacionalizado por intermédio do teclado, controle de apresentação e pelo mouse no método manual.
+ 
+Sorteios
+
+Os sorteios podem acontecer pelo computador ou ser utilizado apenas como painel de exibição para sorteios tradicionais com globo e bolinhas. 
+Utilize a caixa de seleção “sorteio manual” para escolher o modo. 
+Quando selecionado “sorteio manual”, o marcação será manual pelo operador, caso esta opção não esteja selecionada os sorteios serão efetuados pelo computador.
+Este modo pode ser alterado enquanto o primeiro sorteio não é efetuado ou marcado. 
+Após o primeiro sorteio / marcação esta opção não poderá ser trocada até a o começo de uma nova cartela.
+Para prevenir possíveis conflitos, um sorteio ou marcação não poderá ser feito com intervalo menos que 5 segundos do anterior.
+O uso do mouse é necessário na marcação manual.
+
+Teclas e seus códigos utilizados no programa
+
+Tecla “B” - código 66 - (no apontador  =  Tela preta)
+	Efetua sorteio de um número.
+
+Tecla “ESC” - código 27 - (no apontador  =  PTT Fim / Show)
+	Inicia a rotina de inicio de nova cartela.
+
+Tecla “pgup” - código 33 - (no apontador  =  avançar página)
+	- Antes do primeiro sorteio, retrocede o título da cartela atual.
+	- Depois do primeiro sorteio desliga o beep.
+
+Tecla “pgdn” - código 34 - (no apontador  =  retornar página)
+	- Antes do primeiro sorteio, avança o título da cartela atual.
+	- Depois do primeiro sorteio liga o beep.
+	- Com o aviso de encerramento visível, serve para confirmar a operação.
+
+Nome das cartelas a serem utilizadas no bingo
+
+	Como forma de informar os participantes de qual cartela será utilizada, pode-se criar ou atualizar o arquivo texto com o nome “cartelas.txt”, que deve estar no mesmo diretório do executável e deve ter os nomes das cartelas preferencialmente na ordem de utilização.
+
+                O programa automaticamente seleciona a próxima em cada interação conforme exemplo abaixo.
+	
+	Caso não exista este arquivo, o programa gera internamente 20 cartelas com o padrão “cartela N” para sua utilização.
+
+	Pode-se selecionar o nome da cartela por intermédio das teclas “pgup” e “pgdn” desde que não se tenha efetuado nenhum sorteio.
+	
+Exemplo do arquivo “cartela.txt” 
+
+CARTELA 1 DO BLOCO 
+CARTELA 2 DO BLOCO
+CARTELA ESPECIAL A
+CARTELA 3 DO BLOCO
+CARTELA 4 DO BLOCO
+CARTELA ESPECIAL B
+CARTELA 5 DO BLOCO
+CARTELA 6 DO BLOCO
+CARTELA ESPECIAL C
+CARTELA 7 DO BLOCO
+CARTELA 8 DO BLOCO
+CARTELA DO CONVITE
+
+Ajustando tamanho das fontes 
+
+A tela do programa pode ser redimensionada conforme necessidade e conveniência.
+As fontes podem ser reajustadas clicando nas caixas com os textos “A” “B” e “C” que estão na parte inferior direita da tela.
+
+A caixa “A” controla a exibição da letra e do número sorteado, a “B” controla a caixa com os últimos resultados e a “C” o painel de resultados.
+
+Para alterar o tamanho da fonte clique sobre as caixas de controle
+
+O botão do mouse esquerdo aumenta e o direito diminui o tamanho da fonte .
+Se o botão Shift não estiver presionado o imcremento/decremento é de 10 pontos.
+Caso o botão Shift estiver presionado o valor de incremento e decremento é de apelas 1 ponto.
+
+
+Utilização
+
+Iniciando o programa
+
+1 - Crie ou selecione uma pasta no computador. 	
+2 - Copie o programa executável para esta pasta.
+3 - Na mesma pasta, crie o arquivo “cartelas.txt” com os nomes das cartelas válidas.
+4- Ajuste o tamanho das fontes para uma melhor visualização.
+4 - Execute o programa “BINGO”.
+
+Iniciando  uma rodada
+
+1 - Antes do primeiro sorteio ou marcação, utilize as teclas “pgup” e “pgdn” para selecionar o nome da cartela da rodada.
+2 - Selecione o modo de utilização, “sorteio manual” ou pelo computador.
+	
+      O programa muda a forma de apresentação conforme o modo selecionado.
+
+Efetuando os sorteios e marcações
+
+1 - Para o modo manual, clique com o mouse sobre o número sorteado pelo método tradicional.
+2 - Para o modo pelo computador, tecle “B” ou “Tela preta” pelo apontador.
+
+Iniciando uma disputa entre vencedores
+
+Pode acontecer de em uma rodada haver mais de um ganhador ao mesmo tempo.
+Neste caso, a prática é haver uma disputa entre os acertadores com a retirada de um número cada e o que retirar o número maior ganha.
+
+Para iniciar um disputa, tecle no apontador o botão “&lt;” ou “PgDn” e uma tela especial será apresentada.
+Pelo computador, tecle “B” ou “Tela preta” pelo apontador e os 75 números começarão a correr pela tela e quando as mesmas teclas forem acionadas o número sorteado será apresentado e listado na caixa informativa abaixo.
+Assim podemos ter disputa de até 75 concorrentes.
+
+Para voltar ao jogo tecle “PgDn” ou  “ESC”
+
+
+Encerrando as cartelas
+
+1 - Ao término da rodada, tecle “ESC” no teclado ou “PTT Fim/Show pelo apontador”.
+2 - Uma caixa de aviso será exibida pedindo a confirmação da ação.
+3 - Para confirmar tecla “pgdn” ou “retornar  página” no apontador“ ou qualquer outra tecla para cancelar o encerramento e voltar aos sorteios.
+4 - No encerramento, será gerado no mesmo diretório um arquivo texto contendo informação sorte a cartela. Os dados podem ser diferenciados conforme o modo utilizado.
+</value>
+  </data>
+</root>
